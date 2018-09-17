@@ -26,6 +26,6 @@
 ``` 
 <div class="js-product-block"></div>
 ```
-**Отсылка**
-===============================
-За помощь в реализации отдельное и большое спасибо *Viktor Marchyk* и *Dmitriy Webmaster*!
+
+## Сам скрипт и пример на GitHub
+https://github.com/netking-ru/insales-product-preview/
