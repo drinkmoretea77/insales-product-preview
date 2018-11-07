@@ -9,7 +9,7 @@
 		  position: 'quickview',
 		  onOpen: function (modal) {
 			InSalesUI.Filter.create($(modal));
-			Products.initInstance($('.product-form'));
+			Products.initInstance($('.product-form-' + product_id));
 		  }
 		});
 		
@@ -24,7 +24,7 @@
 				$('.js-product-block').find('.product-descr').hide();
 			
 			// Обновляем форму
-				Products.initInstance($('.product-form'));
+				Products.initInstance($('.product-form-' + product_id));
 
 			// Прогружаем галерею
 				var _galleryThumbs = {
